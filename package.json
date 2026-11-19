@@ -13,7 +13,7 @@
     "profile": "node --cpu-prof --cpu-prof-dir=./profiles server.js"
   },
   "engines": { "node": "22.x" },
-  "optionalDependencies": { "mongodb": "6.10.0" },
+  "optionalDependencies": { "mongodb": "7.9.0" },
   "license": "UNLICENSED",
   "private": true
 }
