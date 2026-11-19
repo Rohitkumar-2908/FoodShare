@@ -1,0 +1,19 @@
+{
+  "name": "foodshare",
+  "version": "3.0.0",
+  "description": "FoodShare: food donation platform. MongoDB storage with automatic local fallback, hardened Node API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "backup": "node scripts/backup.js",
+    "admin": "node scripts/admin.js",
+    "restore": "node scripts/restore.js",
+    "loadtest": "node scripts/loadtest.js",
+    "profile": "node --cpu-prof --cpu-prof-dir=./profiles server.js"
+  },
+  "engines": { "node": ">=18.2" },
+  "optionalDependencies": { "mongodb": "6.10.0" },
+  "license": "UNLICENSED",
+  "private": true
+}
